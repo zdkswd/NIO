@@ -104,10 +104,8 @@ FileChannel用于本地传输，下面三个用于网络IO。
 
 FileChannel不能切换成非阻塞模式。
 
-## 阻塞式网络通信
-
 1. 通道：负责连接。![1570705758032](assets/1570705758032.png)
 2. 缓冲区：负责数据的存取
 3. 选择器：是SelectableChannel的多路复用器。用于监控SelectableChannel的IO状况。
 
- 
+ DatagramChannel编程过程与SocketChannel类似。
